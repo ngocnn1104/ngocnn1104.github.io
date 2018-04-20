@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ngoc Nguyen | ngocnn </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!-- navigation bar -->
+      <nav class="navbar navbar-dark navbar-expand-sm justify-content-between fixed-top">
+          <a class="navbar-brand" href="#">Ngoc Nguyen | ngocnn</a>
+
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/ngocnn1104" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.linkedin.com/in/ngocnn/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mailto:ngoc.n.nguyen@aalto.fi?Subject=Hello%20Ngoc" target="_top"><i class="fas fa-envelope fa-2x"></i></a>
+            </li>
+          </ul>
+
+      </nav>
+      <!--  -->
+
+      <!-- about me slides -->
+      <div id="about-me" class="carousel slide" data-ride="carousel">
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col text-right">
+                <blockquote class="blockquote left">
+                  <p><i class="fas fa-quote-left fa-sm"></i> I'm currently studying to become a Web Developer & Designer.</p>
+                  <footer class="blockquote-footer">The Steady Ngoc</footer>
+                </blockquote>
+              </div>
+              <div class="col">
+                <img src="./img/developer.png">
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col text-right">
+                <img src="./img/boardgame.png">
+              </div>
+              <div class="col">
+                <blockquote class="blockquote right">
+                  <p><i class="fas fa-quote-left fa-sm"></i> I <strong>love</strong> brain-teasing games.<br/>In fact, my dream is to own a boardgame cafe someday!</p>
+                  <footer class="blockquote-footer">The Brainy Ngoc</footer>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col text-right">
+                <blockquote class="blockquote left my-auto">
+                  <p><i class="fas fa-quote-left fa-sm"></i> Baking is one of my hobbies.<br/>I mess up most of the time, but it's fun!</p>
+                  <footer class="blockquote-footer">The Clumsy Ngoc</footer>
+                </blockquote>
+              </div>
+              <div class="col">
+                <img src="./img/baking.png">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#about-me" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#about-me" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+      <!--  -->
+
+      <div class="text-center circles">
+        <i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i>
+      </div>
+
+      <!-- education & certificates -->
+      <div id="education">
+          <h3>Things I've learnt</h3>
+          <a href="./Resume_Ngoc Nguyen.pdf" target="_blank"><button type="button" class="btn btn-sm">See full resume</button></a>
+
+          <div id="map" class="text-center container">
+
+            <div class="row">
+              <div class="col-md path cell-1" onClick="start()" style="cursor:pointer" id="startbtn">
+                <p><i class="fas fa-play fa-3x animated headShake infinite"></i><br/>Click here</p>
+              </div>
+              <div class="col-md path cell-2"></div>
+              <div class="col-md path cell-3">
+                <p><i class="fas fa-graduation-cap fa-2x animated tada infinite"></i><br/>First BIZ degree</p>
+              </div>
+              <div class="col-md path cell-4"></div>
+              <div class="col-md path cell-5">
+                <p><i class="fas fa-briefcase fa-2x animated wobble infinite"></i><br/>First full-time jobs</p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md"></div>
+              <div class="col-md"></div>
+              <div class="col-md"></div>
+              <div class="col-md"></div>
+              <div class="col-md path cell-6"></div>
+            </div>
+
+            <div class="row">
+              <div class="col-md path cell-5">
+                <p><i class="fab fa-free-code-camp fa-2x animated infinite jello"></i><br/>Self-study @ Free Code Camp</p>
+              </div>
+              <div class="col-md path cell-4"></div>
+              <div class="col-md path cell-3">
+                <p><i class="fas fa-book fa-2x animated infinite rollIn"></i><br/>Higher study in Biz @ Aalto University</p>
+              </div>
+              <div class="col-md path cell-2"></div>
+              <div class="col-md path cell-1">
+                <span class="animated slideInRight infinite"><i class="fas fa-plane fa-3x fa-rotate-180"></i></span>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md path cell-6"></div>
+              <div class="col-md"></div>
+              <div class="col-md"></div>
+              <div class="col-md"></div>
+              <div class="col-md"></div>
+            </div>
+
+            <div class="row">
+              <div class="col-md path cell-1">
+                <p>Fell in <i class="fas fa-heart animated infinite bounceIn"></i> with coding</p>
+              </div>
+              <div class="col-md path cell-2"></div>
+              <div class="col-md path cell-3">
+                <p><i class="fas fa-certificate fa-2x fa-spin"></i><br/>Front-end Development Certificate <a href="https://www.freecodecamp.org/ngocnn1104/front-end-certification" target="_blank"><i class="fas fa-external-link-square-alt"></i></a></p>
+              </div>
+              <div class="col-md path cell-4"></div>
+              <div class="col-md path cell-5">
+                <p><i class="fas fa-trophy fa-2x animated infinite rubberBand"></i><br/>Google Developer Challenge Scholarship</p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md"></div>
+              <div class="col-md"></div>
+              <div class="col-md"></div>
+              <div class="col-md"></div>
+              <div class="col-md path cell-6"></div>
+            </div>
+
+            <div class="row">
+              <div class="col-md path cell-5">
+                <p><i class="fas fa-certificate fa-2x fa-spin"></i><br/>Data Visualization Certificate <a href="https://www.freecodecamp.org/ngocnn1104/data-visualization-certification" target="_blank"><i class="fas fa-external-link-square-alt"></i></a></p>
+              </div>
+              <div class="col-md path cell-4"></div>
+              <div class="col-md path cell-3">
+                <p><i class="fas fa-laptop fa-2x animated infinite bounceInRight"></i><br/>IT student @ Helsinki Business College</p>
+              </div>
+              <div class="col-md path cell-2"></div>
+              <div class="col-md path cell-1">
+                <p class="animated infinite flash"><i class="fas fa-code"></i> More coding...</p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md text path cell-6">
+                <i class="fas fa-angle-double-down fa-3x animated fadeInDown infinite"></i>
+              </div>
+              <div class="col-md"></div>
+              <div class="col-md"></div>
+              <div class="col-md"></div>
+              <div class="col-md"></div>
+            </div>
+
+            <div class="row">
+              <div class="col-md path cell-1">
+                <p>Here I am, learning and improving each day!</p>
+              </div>
+              <div class="col-md path cell-2">
+                <i class="fas fa-angle-double-right fa-3x animated infinite fadeInLeft"></i>
+              </div>
+              <div class="col-md path">
+                <img src="./img/chibi.png" alt="chibi" id="chibi" class="animated wobble">
+              </div>
+              <div class="col-md"></div>
+              <div class="col-md"></div>
+            </div>
+          </div>
+
+          <ul class="list-group container">
+            <li class="list-group-item">2015 - <i class="fas fa-graduation-cap animated tada infinite"></i> First BIZ degree</li>
+            <li class="list-group-item">2015/16 - <i class="fas fa-briefcase animated wobble infinite"></i> First full-time jobs</li>
+            <li class="list-group-item">2016 - <i class="fas fa-book animated infinite rollIn"></i> Higher study in Biz @ Aalto University</li>
+            <li class="list-group-item">2017 - <i class="fab fa-free-code-camp animated infinite jello"></i> Self-study @ Free Code Camp</li>
+            <li class="list-group-item">2017 - <i class="fas fa-certificate fa-spin"></i> Front-end Development Certificate <a href="https://www.freecodecamp.org/ngocnn1104/front-end-certification" target="_blank"><i class="fas fa-external-link-square-alt"></i></a></li>
+            <li class="list-group-item">2017 - <i class="fas fa-trophy animated infinite rubberBand"></i> Google Developer Challenge Scholarship</li>
+            <li class="list-group-item">2018 - <i class="fas fa-laptop animated infinite bounceIn"></i> IT student @ Helsinki Business College</li>
+            <li class="list-group-item">2018 - <i class="fas fa-certificate fa-spin"></i> Data Visualization Certificate <a href="https://www.freecodecamp.org/ngocnn1104/data-visualization-certification" target="_blank"><i class="fas fa-external-link-square-alt"></i></a></li>
+            <li class="list-group-item">Present - Still coding, learning and improving each day!</li>
+          </ul>
+
+      </div>
+      <!--  -->
+
+      <div class="text-center circles">
+        <i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i>
+      </div>
+
+      <!-- my projects -->
+      <div id="projects">
+        <h3>Things I've done</h3>
+        <a href="https://www.freecodecamp.org/ngocnn1104" target="_blank"><button type="button" class="btn btn-sm">See all projects</button></a>
+
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <div class="image">
+                <img class="card-img-top" src="./img/taxapp.png" alt="Tax app">
+              </div>
+              <div class="card-header">
+                <h5 class="card-title">TRAX - a tax tracking app</h5>
+              </div>
+              <div class="card-body">
+                <p class="card-text">One of my group projects at Helsinki Business College. Helps users keep track of income limits and better understand how taxes work.</p>
+                <h6 class="card-subtitle text-muted mb-3">#html #css #js #reactjs #bootstrap</h6>
+                <a href="#" class="btn btn-secondary disabled">In progress</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <div class="image">
+                <img class="card-img-top" src="./img/maze.png" alt="the maze eater game">
+              </div>
+              <div class="card-header">
+                <h5 class="card-title">THE MAZE EATER GAME</h5>
+              </div>
+              <div class="card-body">
+                <p class="card-text">A Free Code Camp project inspired by Dungeon Crawler game. Easy to play, easy to win.</p>
+                <h6 class="card-subtitle text-muted mb-3">#html #css #js #reactjs</h6>
+                <a href="https://ngocnn1104.github.io/maze-eater-game/" class="btn btn-success" target="_blank">Go</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <div class="image">
+                <img class="card-img-top" src="./img/gameoflife.png" alt="game of life">
+              </div>
+              <div class="card-header">
+                <h5 class="card-title">GAME OF LIFE</h5>
+              </div>
+              <div class="card-body">
+                <p class="card-text">A Free Code Camp project. Imitates Conway's cellular automation universe. Just sit back and observe.</p>
+                <h6 class="card-subtitle text-muted mb-3">#html #css #js #reactjs</h6>
+                <a href="https://ngocnn1104.github.io/game-of-life/" class="btn btn-success" target="_blank">Go</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <div class="card">
+              <div class="image">
+                <img class="card-img-top" src="./img/recipebox.png" alt="Recipe box">
+              </div>
+              <div class="card-header">
+                <h5 class="card-title">RECIPE BOX</h5>
+              </div>
+              <div class="card-body">
+                <p class="card-text">A Free Code Camp project. Allows users to add, edit and remove unlimited recipes in local storage.</p>
+                <h6 class="card-subtitle text-muted mb-3">#html #css #js #reactjs #bootstrap</h6>
+                <a href="https://ngocnn1104.github.io/recipe-box/" class="btn btn-success" target="_blank">Go</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <div class="image">
+                <img class="card-img-top" src="./img/meteor.png" alt="meteorite landing map">
+              </div>
+              <div class="card-header">
+                <h5 class="card-title">METEORITES LANDING IN WORLD MAP</h5>
+              </div>
+              <div class="card-body">
+                <p class="card-text">A Free Code Camp project. Visualizes the landing of meteorites on earth through history.</p>
+                <h6 class="card-subtitle text-muted mb-3">#html #js #d3js</h6>
+                <a href="https://codepen.io/ngocnn1104/full/zjGwvB/" class="btn btn-success" target="_blank">Go</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card">
+              <div class="image">
+                <img class="card-img-top" src="./img/forcedirected.png" alt="force directed map">
+              </div>
+              <div class="card-header">
+                <h5 class="card-title">FORCE DIRECTED MAP OF STATE CONTIGUITY</h5>
+              </div>
+              <div class="card-body">
+                <p class="card-text">A Free Code Camp project. Visualizes how countries connect to one another in a force directed map.</p>
+                <h6 class="card-subtitle text-muted mb-3">#html #js #d3js</h6>
+                <a href="https://rawgit.com/ngocnn1104/force-directed-graph/master/index.html" class="btn btn-success" target="_blank">Go</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!--  -->
+
+      <div class="text-center circles">
+        <i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i>
+      </div>
+
+      <!-- footer -->
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container text-center">
+          <p>I'm available to help with your projects,<br/>so feel free to drop me a line or two.</p>
+          <a class="nav-link" href="https://github.com/ngocnn1104" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+          <a class="nav-link" href="https://www.linkedin.com/in/ngocnn/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+          <a class="nav-link" href="mailto:ngoc.n.nguyen@aalto.fi?Subject=Hello%20Ngoc" target="_top"><i class="fas fa-envelope fa-2x"></i></a>
+          <p id="footer">Ngoc Nguyen | ngocnn &copy; 2018</p>
+        </div>
+      </div>
+      <!--  -->
+
+    </div>
+
+    <script type="text/javascript" src="./index.js"></script>
+  </body>
+</html>
