@@ -184,7 +184,7 @@ h3 {
   height: 100%;
 }
 
-.list-group {
+#education.list-group {
   display: none;
 }
 
@@ -216,7 +216,7 @@ h3 {
     display: none;
   }
 
-  .list-group {
+  #education.list-group {
     display: block;
   }
 
@@ -254,4 +254,17 @@ h3 {
 #chibi {
   height: 150%;
   z-index: 10;
+}
+
+#all-projects {
+  margin: 60px 0;
+}
+
+#all-projects div {
+  margin: 10px 0;
+}
+
+#all-projects li.active {
+  background: #7F267D;
+  border: #7F267D;
 }
