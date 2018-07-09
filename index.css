@@ -184,7 +184,7 @@ h3 {
   height: 100%;
 }
 
-#education.list-group {
+#education .list-group {
   display: none;
 }
 
@@ -216,7 +216,7 @@ h3 {
     display: none;
   }
 
-  #education.list-group {
+  #education .list-group {
     display: block;
   }
 
