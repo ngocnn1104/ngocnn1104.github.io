@@ -1,274 +1,290 @@
-@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
 
 body {
-    color: #2b002a;
-    font-family: 'Ubuntu', sans-serif;
+	color: #2b002a;
+	font-family: "Ubuntu", sans-serif;
 }
 
-a, a:hover {
-  text-decoration: none;
+a,
+a:hover {
+	text-decoration: none;
 }
 
 h3 {
-  text-align: center;
+	text-align: center;
 }
 
 .navbar {
-  background-color: #2b002a;
-  height: 50px;
+	background-color: #2b002a;
+	height: 50px;
 }
 
 .navbar path {
-  fill: white;
+	fill: white;
 }
 
 .navbar a:hover path {
-  fill: grey;
+	fill: grey;
 }
 
 #about-me {
-  margin: 60px 0;
-  font-size: 120%;
+	margin: 60px 0;
+	font-size: 120%;
 }
 
 #about-me .left {
-  padding-top: 30%;
-  padding-left: 30%;
-  padding-right: 5%;
+	padding-top: 30%;
+	padding-left: 30%;
+	padding-right: 5%;
 }
 
 #about-me .right {
-  padding-top: 30%;
-  padding-right: 30%;
-  padding-left: 5%;
+	padding-top: 30%;
+	padding-right: 30%;
+	padding-left: 5%;
 }
 
 .carousel-inner img {
-  width: 80%;
+	width: 80%;
 }
 
 .carousel-indicators li {
-  background: #2b002a;
-  cursor: pointer;
+	background: #2b002a;
+	cursor: pointer;
 }
 
 .carousel-indicators .active {
-  background: grey;
+	background: grey;
 }
 
 .carousel-control-next-icon {
-  background-image : url("https://use.fontawesome.com/releases/v5.0.10/svgs/solid/chevron-circle-right.svg");
+	background-image: url("https://use.fontawesome.com/releases/v5.0.10/svgs/solid/chevron-circle-right.svg");
 }
 
 .carousel-control-prev-icon {
-  background-image: url("https://use.fontawesome.com/releases/v5.0.10/svgs/solid/chevron-circle-left.svg");
+	background-image: url("https://use.fontawesome.com/releases/v5.0.10/svgs/solid/chevron-circle-left.svg");
+}
+
+.projects-row {
+	margin: 0 auto;
+	margin-bottom: 30px;
+	max-width: 80%;
 }
 
 .card-title {
-  margin: 0;
+	margin: 0;
+}
+
+.card-subtitle {
+	font-size: 0.8em;
 }
 
 .card {
-  margin-bottom: 30px;
-  border: none;
+	height: 100%;
+	border: none;
 }
 
 .card-header {
-  background-color: rgba(43,0,42, 0.7);
-  color: white;
+	background-color: rgba(43, 0, 42, 0.7);
+	color: white;
 }
 
 .card-body {
-  background-color: rgba(43,0,42, 0.1);
+	background-color: rgba(43, 0, 42, 0.1);
 }
 
 .btn-sm {
-  display: block;
-  margin: 20px auto 60px auto;
-  border: #28a745 solid 1px;
-  color: white;
-  background-color: #28a745;
-  -moz-transition: all 0.3s;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+	display: block;
+	margin: 20px auto 60px auto;
+	border: #28a745 solid 1px;
+	color: white;
+	background-color: #28a745;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
 }
 
 .btn-sm:hover {
-  -moz-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
 }
 
 .circles {
-  margin: 100px 0;
+	margin: 100px 0;
 }
 
 .circles svg {
-  margin: 0 10px;
+	margin: 0 10px;
 }
 
 .circles path {
-  fill: rgba(43,0,42, 0.4);
+	fill: rgba(43, 0, 42, 0.4);
 }
 
 .jumbotron {
-  background-color: #2b002a;
-  color: white;
-  margin-bottom: 0;
-  padding-top: 40px;
-  padding-bottom: 2px;
+	background-color: #2b002a;
+	color: white;
+	margin-bottom: 0;
+	padding-top: 40px;
+	padding-bottom: 2px;
+	position: absolute;
+	left: 0;
+	width: 100%;
 }
 
 .jumbotron a {
-  display: inline-block;
-  color: white;
+	display: inline-block;
+	color: white;
 }
 
 .jumbotron a:hover {
-  color: grey;
+	color: grey;
 }
 
 #footer {
-  font-size: 80%;
-  margin-top: 40px;
-  font-weight: normal;
+	font-size: 80%;
+	margin-top: 40px;
+	font-weight: normal;
 }
 
 #education a {
-  color: white;
+	color: white;
 }
 
 #education a:hover {
-  color: grey;
+	color: grey;
 }
 
 .cell-1 {
-  background-color: #9ccc3c;
+	background-color: #9ccc3c;
 }
 
 .cell-2 {
-  background-color: #ffc114;
+	background-color: #ffc114;
 }
 
 .cell-3 {
-  background-color: #f37123;
+	background-color: #f37123;
 }
 
 .cell-4 {
-  background-color: #e44298;
+	background-color: #e44298;
 }
 
 .cell-5 {
-  background-color: #6b459c;
+	background-color: #6b459c;
 }
 .cell-6 {
-  background-color: #1a92ce;
+	background-color: #1a92ce;
 }
 
 .gray {
-  background-color: #e9e5e9;
+	background-color: #e9e5e9;
 }
 
 #map {
-  color: rgba(255,255,255,1);
-  background-color: #e9e5e9;
-  padding: 40px 60px;
-  overflow: hidden;
-  font-size: 13px;
+	color: rgba(255, 255, 255, 1);
+	background-color: #e9e5e9;
+	padding: 40px 60px;
+	overflow: hidden;
+	font-size: 13px;
 }
 
 #map .row {
-  height: 100px;
+	height: 100px;
 }
 
 #map .row div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
 }
 
 #education .list-group {
-  display: none;
+	display: none;
 }
 
 #projects p {
-  font-size: 80%;
+	font-size: 80%;
 }
 
 .image {
-  overflow: hidden;
+	overflow: hidden;
 }
 
 #projects img {
-  opacity: 0.6;
-  -moz-transition: all 0.3s;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  transform: scale(0.9);
+	opacity: 0.8;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+	transform: scale(0.9);
 }
 
 #projects .card:hover img {
-  opacity: 1;
-  -moz-transform: scale(1);
-  -webkit-transform: scale(1);
-  transform: scale(1);
+	opacity: 1;
+	-moz-transform: scale(1);
+	-webkit-transform: scale(1);
+	transform: scale(1);
 }
 
 @media screen and (max-width: 800px) {
-  #map {
-    display: none;
-  }
+	#map {
+		display: none;
+	}
 
-  #education .list-group {
-    display: block;
-  }
+	#education .list-group {
+		display: block;
+	}
 
-  #education a {
-    color: #0645AD;
-  }
+	#education a {
+		color: #0645ad;
+	}
 
-  #about-me .left, #about-me .right {
-    padding-top: 15%;
-    font-size: 80%;
-  }
+	#about-me .left,
+	#about-me .right {
+		padding-top: 15%;
+		font-size: 80%;
+	}
 }
 
 @media screen and (max-width: 578px) {
-  .navbar ul {
-    display: none;
-  }
+	.navbar ul {
+		display: none;
+	}
 }
 
 @media screen and (max-width: 486px) {
-  #about-me .left, #about-me .right {
-    padding-top: 10%;
-    font-size: 60%;
-  }
+	#about-me .left,
+	#about-me .right {
+		padding-top: 10%;
+		font-size: 60%;
+	}
 
-  #about-me .left {
-    padding-left: 10%;
-  }
+	#about-me .left {
+		padding-left: 10%;
+	}
 
-  #about-me .right {
-    padding-right: 10%;
-  }
+	#about-me .right {
+		padding-right: 10%;
+	}
 }
 
 #chibi {
-  height: 150%;
-  z-index: 10;
+	height: 150%;
+	z-index: 10;
 }
 
 #all-projects {
-  margin: 60px 0;
+	margin: 60px 0;
 }
 
 #all-projects div {
-  margin: 10px 0;
+	margin: 10px 0;
 }
 
 #all-projects li.active {
-  background: #7F267D;
-  border: #7F267D;
+	background: #7f267d;
+	border: #7f267d;
 }
